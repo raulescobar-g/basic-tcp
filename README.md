@@ -1,5 +1,4 @@
 # A basic tcp client && server in c
----
 ## Server
 server accepts a connection and sends "howdy"
 

@@ -1,4 +1,4 @@
 #!/bin/bash
 
-gcc server.c -o bin/server
-./bin/server
+gcc server.c -fsanitize=address -o bin/server
+./bin/server "$@" 
